@@ -3,9 +3,7 @@
         <tr>
             <td align="center">
                 <div class="buttons">
-                    <a href="javascript:navigator.clipboard.writeText('{$self_link}');">
-                        <img src="images/plus.png" alt="copy link">&nbsp;Copy link
-                    </a>
+                    <button onclick="navigator.clipboard.writeText('{$self_link}');">Copy link naar klembord</button>
                 </div>
             </td>
         </tr>
